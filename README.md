@@ -5,6 +5,7 @@
 - Technologies.
 - Get Started.
   - Prerequisites.
+  - Installation.
 
 ## Introduction
 Machine Learning has become one of the important fields and fastest-growing areas of computer science and technology, it is a subfield of Artificial Intelligence (AI). Nowadays, machines are capable of learning like humans, and they are designed to perform tasks. Generally, Machine Learning used to understand the structure of data and fit that data into models that can be understood and utilized by people.
@@ -19,3 +20,17 @@ Project is created with:
 - Flask.
 - Web pages: HTML, CSS, Boostrap.
 - Scikit-learn library
+
+## Get Started
+This is how to run the project by following the instructions for sitting up the project locally.
+### Prerequisites
+- Anaconda.
+- Spyder, Python Development Environment.
+- Local server such as, Xampp server.
+### Installation
+- Clone the project from repository,
+  - Press clone, copy the link with HTTPS.
+  - Use git bash to clone, in bash type,
+  ```
+  $ git clone <link>
+  ```
