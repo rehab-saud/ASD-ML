@@ -7,6 +7,7 @@
   - Prerequisites.
   - Installation.
   - Approach.
+  - Conclusion.
 
 ## Introduction
 Machine Learning has become one of the important fields and fastest-growing areas of computer science and technology, it is a subfield of Artificial Intelligence (AI). Nowadays, machines are capable of learning like humans, and they are designed to perform tasks. Generally, Machine Learning used to understand the structure of data and fit that data into models that can be understood and utilized by people.
@@ -62,8 +63,10 @@ The model is trained using a training dataset by a supervised learning method, t
 ### Step 4: Testing model
 The test model is used to evaluate the performance and estimates how well the model is trained and better fits. Typically, provides the final estimate of validating the model.
 ### Step 5: Re-training model
-re-training comes after the testing model if the model does not fit well with data and has a desire to re-train the dataset to meet the goals and tasks. Therefore, choosing the right models of prediction and classification data contribute in building an accurate and reliable model.
+Re-training comes after the testing model if the model does not fit well with data and has a desire to re-train the dataset to meet the goals and tasks. Therefore, choosing the right models of prediction and classification data contribute in building an accurate and reliable model.
 ### Step 6: Classifier
 They are algorithms tending to predict the class of data. The classes are called labels/targets or categories, it uses supervised learning to decide which data learned from the input data.
 
+## Conclusion
+This paper aims at developing a screening model using ML techniques for detecting and assessing the behaviors associated with ASD among toddlers age 12 - 30 months.  Early detection ASD can help to limit the challenges that are facing children such as communications ,social skills, learning disabilities , daily problems and many others. The goal is to apply supervised learning algorithms for a dataset from previous medical cases that can predict the autistic among toddlers.  The uses of the new screening methods can encourage the use of technology in clinical environments for autism and empower clinicians with tools that provide useful knowledge for better decision making.
 
