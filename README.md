@@ -2,7 +2,9 @@
 
 ## Table of Contents
 - Introduction.
-- Technologies
+- Technologies.
+- Get Started.
+  - Prerequisites.
 
 ## Introduction
 Machine Learning has become one of the important fields and fastest-growing areas of computer science and technology, it is a subfield of Artificial Intelligence (AI). Nowadays, machines are capable of learning like humans, and they are designed to perform tasks. Generally, Machine Learning used to understand the structure of data and fit that data into models that can be understood and utilized by people.
