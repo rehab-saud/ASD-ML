@@ -44,3 +44,8 @@ This is how to run the project by following the instructions for sitting up the 
   - Choose the folder.
 - Install all the required libraries.
   - Use the package manager [pip](https://pip.pypa.io/en/stable/) for installing.
+  ```
+  pip install <package_name>
+  ```
+- Run the project.
+- Open terminal/command prompt from project directory and run the file ```app.py``` by executing the command ```python app.py```
