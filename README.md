@@ -6,6 +6,7 @@
 - Get Started.
   - Prerequisites.
   - Installation.
+  - Approach.
 
 ## Introduction
 Machine Learning has become one of the important fields and fastest-growing areas of computer science and technology, it is a subfield of Artificial Intelligence (AI). Nowadays, machines are capable of learning like humans, and they are designed to perform tasks. Generally, Machine Learning used to understand the structure of data and fit that data into models that can be understood and utilized by people.
@@ -49,3 +50,20 @@ This is how to run the project by following the instructions for sitting up the 
   ```
 - Run the project.
 - Open terminal/command prompt from project directory and run the file ```app.py``` by executing the command ```python app.py```
+- Enter the localhost API in the browser.
+
+## Approach
+### Step 1: The Dataset
+Data gathering has a significant factor in solving the problem and this will allow capturing the record of previous cases of autism. The classifier can be more efficient as it will be based on the dataset from which it was built. This project used dataset published in Kaggle.
+### Step 2: Data pre-processing
+Data pre-processing is an important step in ML, the data requires pre-processing in order to yield useful insight into the data before feeding it to the algorithms. This process includes data cleaning, data reduction and data transformation in order to achieve better results from the model.
+### Step 3: Training model
+The model is trained using a training dataset by a supervised learning method, typically contains examples or samples used to fit the model which learns from these data .This involves ML algorithms that used to build a predictive model.
+### Step 4: Testing model
+The test model is used to evaluate the performance and estimates how well the model is trained and better fits. Typically, provides the final estimate of validating the model.
+### Step 5: Re-training model
+re-training comes after the testing model if the model does not fit well with data and has a desire to re-train the dataset to meet the goals and tasks. Therefore, choosing the right models of prediction and classification data contribute in building an accurate and reliable model.
+### Step 6: Classifier
+They are algorithms tending to predict the class of data. The classes are called labels/targets or categories, it uses supervised learning to decide which data learned from the input data.
+
+
