@@ -43,4 +43,4 @@ This is how to run the project by following the instructions for sitting up the 
   - Select open folder.
   - Choose the folder.
 - Install all the required libraries.
-  - Use the package manager pip for installing.
+  - Use the package manager (pip)[https://pip.pypa.io/en/stable/] for installing.
