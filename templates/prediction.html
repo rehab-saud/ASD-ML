@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title> ASD Prediction</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body style="background-image: url('static/img/background3.jpg');">
+
+<br>
+
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="/"> Home </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about"> About Prediction  </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="/prediction"> Autism Prediction</a>
+  </li>
+</ul>
+
+
+
+<img src="static/img/header4.jpg" class="card-img-top" style="width:1360px;height:300px;" alt="Header">
+
+<br>
+<br>
+
+<h2 class="text-center" style="font-family:Times New Roman;"> ASD Prediction </h2> 
+  
+<br>
+
+<center>
+
+<form action="{{ url_for('predict')}}"method="post">
+
+
+<div class="card" style="max-width: 900px;">
+  
+
+<table class="table table-striped">
+
+ 
+<tbody>
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    1. Does your child look at you when you call his/her name? 
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q1" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+<br>
+<br>
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    2. How easy is it for you to get eye contact with your child? 
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q2" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    3. Does your child point to indicate that s/he wants something?
+    <small> (e.g. a toy that is out of reach) </small>
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q3" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    4. Does your child point to share interest with you? 
+    <small> (e.g. pointing at an interesting sight) </small>
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q4" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    5. Does your child pretend? 
+    <small> (e.g. care for dolls, talk on a toy phone) </small>
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q5" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    6. Does your child follow where you’re looking?
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q6" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    7. If you or someone else in the family is visibly upset, does your child show signs of wanting to comfort them? 
+    <small> (e.g. stroking hair, hugging them) </small>
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q7" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    8. Would you describe your child’s first words as:
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q8" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+    9. Does your child use simple gestures? 
+    <small> (e.g. wave goodbye) </small>
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q9" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+<tr>
+<td style="font-family:Times New Roman;">
+
+   10. Does your child stare at nothing with no apparent purpose?
+
+</td>
+<td>
+
+<input type="text" class="form-control" name="q10" placeholder="Enter 1 or 0" required="required" />
+
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+</div>
+</div>
+
+<button type="submit" class="btn btn-primary"> Predict </button>
+
+<br>
+
+
+</form>
+
+<br>
+
+
+{{ prediction_text }}
+
+</cetnetr>
+
+<br>
+
+
+</body>
+</html>
