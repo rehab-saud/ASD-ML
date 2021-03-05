@@ -32,5 +32,15 @@ This is how to run the project by following the instructions for sitting up the 
   - Press clone, copy the link with HTTPS.
   - Use git bash to clone, in bash type,
   ```
-  $ git clone <link>
+  $ git clone <HTTP link>
   ```
+  - Or download the zip file.
+- Run the local srever.
+- Open Anaconda.
+- Select Spyder environment.
+- Open the project folder.
+  - Go to file.
+  - Select open folder.
+  - Choose the folder.
+- Install all the required libraries.
+  - Use the package manager pip for installing.
